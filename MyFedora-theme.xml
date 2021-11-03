@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme name="MyFedora" version="1820">
+<theme name="MyFedora" version="1829">
 	<properties>
-		<templateset><![CDATA[19]]></templateset>
+		<templateset><![CDATA[17]]></templateset>
 		<editortheme><![CDATA[mybb.css]]></editortheme>
 		<imgdir><![CDATA[themes/myfedora]]></imgdir>
 		<logo><![CDATA[themes/myfedora/logo.png]]></logo>
@@ -11,7 +11,7 @@
 		<disporder><![CDATA[a:7:{s:10:"global.css";i:1;s:8:"css3.css";i:2;s:10:"usercp.css";i:3;s:9:"modcp.css";i:4;s:14:"showthread.css";i:5;s:17:"thread_status.css";i:6;s:16:"star_ratings.css";i:7;}]]></disporder>
 	</properties>
 	<stylesheets>
-		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1820"><![CDATA[/*
+		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1829"><![CDATA[/*
  * MyBB: MyFedora Frontend Theme 
  *
  * File: thread_status.css File
@@ -99,9 +99,10 @@
 .thread_status.newclosefolder {
     background-image: url('themes/myfedora/newlockfolder.png');  
 }
-  ]]>
+  
+		]]>
 		</stylesheet>
-		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1820"><![CDATA[/*
+		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1829"><![CDATA[/*
  * MyBB: MyFedora Frontend Theme 
  *
  * File: star_rating.css File
@@ -124,7 +125,7 @@
 
 .star_rating {
      unicode-bidi: bidi-override;
-     direction: rtl;
+     direction: ltr;
      list-style:none outside none;
      margin:0;
      padding:0;
@@ -179,7 +180,6 @@ td .star_rating {
   cursor:pointer;
 }
 
-
 li.current_rating[style*="20"] ~ li a.one_star,
 li.current_rating[style*="40"] ~ li:nth-child(n+5) a,
 li.current_rating[style*="60"] ~ li:nth-child(n+4) a,
@@ -199,7 +199,6 @@ li[style*="100"]~ li:nth-child(n+2) a  {
   right:3px;
 }
 
-
 .inline_rating {
   float: left;
   vertical-align: middle;
@@ -216,12 +215,9 @@ li[style*="100"]~ li:nth-child(n+2) a  {
 td[id*="rating_table"] {
 text-align:center;
 margin:0 auto;
-}
-
-
-		]]>
+}	]]>
 		</stylesheet>
-		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1820"><![CDATA[/*
+		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1829"><![CDATA[/*
  * MyBB: MyFedora Frontend Theme 
  *
  * File: usercp.css File
@@ -383,9 +379,10 @@ margin:0 auto;
 }
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="showthread.css" attachedto="showthread.php" version="1820"><![CDATA[/*
+		<stylesheet name="showthread.css" attachedto="showthread.php" version="1829"><![CDATA[/*
  * MyBB: MyFedora Frontend Theme 
  *
  * File: showthread.css File
@@ -442,9 +439,10 @@ ul.thread_tools li.poll {
 }
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="modcp.css" attachedto="modcp.php" version="1820"><![CDATA[/*
+		<stylesheet name="modcp.css" attachedto="modcp.php" version="1829"><![CDATA[/*
  * MyBB: MyFedora Frontend Theme 
  *
  * File: modcp.css File
@@ -556,9 +554,10 @@ ul.thread_tools li.poll {
 }
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="global.css" version="1820"><![CDATA[/*
+		<stylesheet name="global.css" version="1829"><![CDATA[/*
  * MyBB: MyFedora Frontend Theme 
  *
  * File: global.css File
@@ -2429,9 +2428,10 @@ div.jqi .jqisubstate .jqibuttons button {
 }
 
 /** Impromptu End */
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="css3.css" version="1820"><![CDATA[/*
+		<stylesheet name="css3.css" version="1829"><![CDATA[/*
  * MyBB: MyFedora Frontend Theme 
  *
  * File: css3.css File
@@ -2540,11 +2540,12 @@ a.button {
 
 		
 		
+		
 		]]>
 		</stylesheet>
 	</stylesheets>
 	<templates>
-		<template name="footer" version="1820"><![CDATA[<debugstuff>
+		<template name="footer" version="1829"><![CDATA[<debugstuff>
 	</div>
 </div>
 <div id="footer">
@@ -2581,7 +2582,7 @@ a.button {
 				<!-- Begin Theme Credits -->
 				
 				Theme by: <a href="http://mybbthemes.8ez.com" target="_blank">MyBB Themes PL</a>
-				&amp; <a href="http://community.mybb.com/user-6029.html" target="_blank">Vintagedaddyo</a>
+				&amp; <a href="https://github.com/vintagedaddyo/MyBB_Theme_MyFedora" target="_blank">Vintagedaddyo</a>
 				
                 <!-- End Theme Credits -->
 				
@@ -2644,15 +2645,15 @@ a.button {
 				{$awaitingusers}
 				<navigation>
 				<br />]]></template>
-		<template name="headerinclude" version="1820"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
+		<template name="headerinclude" version="1829"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
 <link rel="alternate" type="application/atom+xml" title="{$lang->latest_threads} (Atom 1.0)" href="{$mybb->settings['bburl']}/syndication.php?type=atom1.0" />
 <meta http-equiv="Content-Type" content="text/html; charset={$charset}" />
 <!-- Add Favicon -->
 <link rel="Shortcut icon" href="{$mybb->settings['bburl']}/{$theme['imgdir']}/favicon.ico" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
-<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.js?ver=1820"></script>
-<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.plugins.min.js?ver=1820"></script>
-<script type="text/javascript" src="{$mybb->asset_url}/jscripts/general.js?ver=1820"></script>
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.js?ver=1823"></script>
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.plugins.min.js?ver=1821"></script>
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/general.js?ver=1827"></script>
 
 {$stylesheets}
 
@@ -2686,7 +2687,9 @@ $(document).ready(function(){
 <script type="text/javascript">
 <!--
 	lang.unknown_error = "{$lang->unknown_error}";
-
+	lang.confirm_title = "{$lang->confirm_title}";
+	lang.expcol_collapse = "{$lang->expcol_collapse}";
+	lang.expcol_expand = "{$lang->expcol_expand}";
 	lang.select2_match = "{$lang->select2_match}";
 	lang.select2_matches = "{$lang->select2_matches}";
 	lang.select2_nomatches = "{$lang->select2_nomatches}";
@@ -2746,14 +2749,14 @@ $(document).ready(function(){
 <td class="{$optionbg}" width="70" align="center">{$votes}</td>
 <td class="{$optionbg}" width="30" align="center">{$percent}%</td>
 </tr>]]></template>
-		<template name="showthread_ratethread" version="1818"><![CDATA[<div class="star_rating_container">
-        <scriptstyle="margin-top: 6px; padding-right: 10px;" class="float_right">
+		<template name="showthread_ratethread" version="1829"><![CDATA[<div class="star_rating_container">
+	<scriptstyle="margin-top: 6px; padding-right: 10px;" class="float_right">
 		<script type="text/javascript">
 		<!--
 			lang.ratings_update_error = "{$lang->ratings_update_error}";
 		// -->
-		</script>	
-        <script type="text/javascript" src="jscripts/rating.js?ver=1808"></script>
+		</script>
+        <script type="text/javascript" src="{$mybb->asset_url}/jscripts/rating.js?ver=1821"></script>
         <div id="success_rating_{$thread['tid']}" style="float: left; padding-top: 2px; padding-right: 10px;">&nbsp;</div>
 <strong style="float: left; padding-right: 10px;">{$lang->thread_rating}</strong>
         <div class="inline_rating">
