@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme name="MyFedora" version="1829">
+<theme name="MyFedora" version="1830">
 	<properties>
-		<templateset><![CDATA[17]]></templateset>
+		<templateset><![CDATA[37]]></templateset>
 		<editortheme><![CDATA[mybb.css]]></editortheme>
 		<imgdir><![CDATA[themes/myfedora]]></imgdir>
 		<logo><![CDATA[themes/myfedora/logo.png]]></logo>
@@ -11,7 +11,7 @@
 		<disporder><![CDATA[a:7:{s:10:"global.css";i:1;s:8:"css3.css";i:2;s:10:"usercp.css";i:3;s:9:"modcp.css";i:4;s:14:"showthread.css";i:5;s:17:"thread_status.css";i:6;s:16:"star_ratings.css";i:7;}]]></disporder>
 	</properties>
 	<stylesheets>
-		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1829"><![CDATA[/*
+		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1830"><![CDATA[/*
  * MyBB: MyFedora Frontend Theme 
  *
  * File: thread_status.css File
@@ -100,9 +100,10 @@
     background-image: url('themes/myfedora/newlockfolder.png');  
 }
   
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1829"><![CDATA[/*
+		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1830"><![CDATA[/*
  * MyBB: MyFedora Frontend Theme 
  *
  * File: star_rating.css File
@@ -215,9 +216,10 @@ li[style*="100"]~ li:nth-child(n+2) a  {
 td[id*="rating_table"] {
 text-align:center;
 margin:0 auto;
-}	]]>
+}	
+		]]>
 		</stylesheet>
-		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1829"><![CDATA[/*
+		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1830"><![CDATA[/*
  * MyBB: MyFedora Frontend Theme 
  *
  * File: usercp.css File
@@ -380,9 +382,10 @@ margin:0 auto;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="showthread.css" attachedto="showthread.php" version="1829"><![CDATA[/*
+		<stylesheet name="showthread.css" attachedto="showthread.php" version="1830"><![CDATA[/*
  * MyBB: MyFedora Frontend Theme 
  *
  * File: showthread.css File
@@ -440,9 +443,10 @@ ul.thread_tools li.poll {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="modcp.css" attachedto="modcp.php" version="1829"><![CDATA[/*
+		<stylesheet name="modcp.css" attachedto="modcp.php" version="1830"><![CDATA[/*
  * MyBB: MyFedora Frontend Theme 
  *
  * File: modcp.css File
@@ -555,9 +559,10 @@ ul.thread_tools li.poll {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="global.css" version="1829"><![CDATA[/*
+		<stylesheet name="global.css" version="1830"><![CDATA[/*
  * MyBB: MyFedora Frontend Theme 
  *
  * File: global.css File
@@ -2429,9 +2434,10 @@ div.jqi .jqisubstate .jqibuttons button {
 
 /** Impromptu End */
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="css3.css" version="1829"><![CDATA[/*
+		<stylesheet name="css3.css" version="1830"><![CDATA[/*
  * MyBB: MyFedora Frontend Theme 
  *
  * File: css3.css File
@@ -2538,6 +2544,7 @@ a.button {
 .pollbar {
 }
 
+		
 		
 		
 		
