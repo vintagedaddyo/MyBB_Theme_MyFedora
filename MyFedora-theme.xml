@@ -584,6 +584,7 @@ ul.thread_tools li.poll {
   display: none;
   z-index: 999;
   background: #003C63 url('themes/myfedora/sc_arrow.png') center no-repeat;
+  border-radius: 3px;
 }
 
 #scroll_up {
@@ -749,9 +750,12 @@ a:hover, a:active {
 }
 
 #panel .upper {
-	background: #EFF9FF;
+	background: #EEEEEE;
 	color: #000;
-    border-top: 2px solid #001E38;
+    border-top: 2px solid #DDDDDD;	
+	/*background: #EFF9FF;
+	color: #000;
+    border-top: 2px solid #001E38;*/
 	padding: 7px;
 	clear: both;
 }
@@ -764,9 +768,12 @@ a:hover, a:active {
 }
 
 #panel .lower {
-	background: #EFF9FF;
+	background: #EEEEEE;
 	color: #000;
-    border-bottom: 2px solid #001E38;
+    border-bottom: 2px solid #DDDDDD;	
+	/*background: #EFF9FF;
+	color: #000;
+    border-bottom: 2px solid #001E38;*/
 	padding: 5px;
 }
 
@@ -827,9 +834,12 @@ a:hover, a:active {
 #footer .upper {
 	font-size: 12px;
 	overflow: hidden;
-	background: #eff9ff;
+	background: #EEEEEE;
+    border-top: 2px solid #DDDDDD;
+    border-bottom: 2px solid #DDDDDD;	
+	/*background: #eff9ff;
     border-top: 2px solid #001e38;
-    border-bottom: 2px solid #001e38;
+    border-bottom: 2px solid #001e38;*/
 	color: #000000;
 	padding: 10px;
 }
@@ -2652,7 +2662,7 @@ a.button {
 				{$awaitingusers}
 				<navigation>
 				<br />]]></template>
-		<template name="headerinclude" version="1829"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
+		<template name="headerinclude" version="1830"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
 <link rel="alternate" type="application/atom+xml" title="{$lang->latest_threads} (Atom 1.0)" href="{$mybb->settings['bburl']}/syndication.php?type=atom1.0" />
 <meta http-equiv="Content-Type" content="text/html; charset={$charset}" />
 <!-- Add Favicon -->
