@@ -2656,7 +2656,7 @@ a.button {
 <link rel="alternate" type="application/atom+xml" title="{$lang->latest_threads} (Atom 1.0)" href="{$mybb->settings['bburl']}/syndication.php?type=atom1.0" />
 <meta http-equiv="Content-Type" content="text/html; charset={$charset}" />
 <!-- Add Favicon -->
-<link rel="Shortcut icon" href="{$mybb->settings['bburl']}/{$theme['imgdir']}/favicon.ico" />
+<link rel="Shortcut icon" href="{$theme['imgdir']}/favicon.ico" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.js?ver=1823"></script>
 <script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.plugins.min.js?ver=1821"></script>
